@@ -1978,7 +1978,7 @@
 		)
 	)
 	(rectangle
-		(start 180.34 50.8)
+		(start 179.07 50.8)
 		(end 228.6 142.24)
 		(stroke
 			(width 0)
@@ -2747,16 +2747,6 @@
 		)
 		(uuid "ff99c792-3a5e-4334-af72-be7038de9a5f")
 	)
-	(label "PWR_output"
-		(at 193.04 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0633ec39-b335-43a8-a1e2-059b37047189")
-	)
 	(label "5V"
 		(at 140.97 50.8 0)
 		(effects
@@ -2807,6 +2797,16 @@
 		)
 		(uuid "3472ed62-20b3-448e-8641-34c6ef2f8c73")
 	)
+	(label "PWR_OUT_TOP"
+		(at 193.04 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e30ea25-72b2-4cee-a3fa-6c5c75095336")
+	)
 	(label "PWR_input"
 		(at 69.85 53.34 0)
 		(effects
@@ -2827,15 +2827,15 @@
 		)
 		(uuid "98426a4d-d159-4a0e-8052-2c1c2cfe1079")
 	)
-	(label "PWR_output"
-		(at 193.04 63.5 180)
+	(label "PWR_OUT_BOT"
+		(at 193.04 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bfffa73c-9b20-42f8-ac1d-e6db66a2154f")
+		(uuid "b5c6b684-89d5-4287-a3be-88fb80067dd0")
 	)
 	(label "5V"
 		(at 198.12 100.33 180)
