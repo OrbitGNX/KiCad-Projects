@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 39,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -18,13 +18,13 @@
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
-      "graphics": false,
+      "graphics": true,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
       "text": true,
-      "tracks": true,
+      "tracks": false,
       "vias": false,
       "zones": false
     },
@@ -37,17 +37,17 @@
       "footprints_back",
       "footprint_values",
       "footprint_references",
-      "tracks",
       "drc_errors",
       "drawing_sheet",
       "bitmaps",
       "pads",
       "zones",
       "drc_warnings",
+      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffff7f_ffffffff",
     "zone_display_mode": 1
   },
   "git": {
@@ -56,7 +56,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Breadboard Power Supply.kicad_prl",
+    "filename": "Tiny Solar Supply.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -85,16 +85,16 @@
       9
     ],
     "col_widths": [
-      21,
-      19,
-      12,
-      9,
-      12,
-      12,
-      12,
-      9,
-      12,
-      95
+      66,
+      61,
+      41,
+      27,
+      41,
+      41,
+      41,
+      29,
+      41,
+      41
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -114,12 +114,12 @@
   },
   "schematic": {
     "selection_filter": {
-      "graphics": true,
-      "images": true,
+      "graphics": false,
+      "images": false,
       "labels": true,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
+      "otherItems": false,
+      "pins": false,
       "symbols": true,
       "text": true,
       "wires": true

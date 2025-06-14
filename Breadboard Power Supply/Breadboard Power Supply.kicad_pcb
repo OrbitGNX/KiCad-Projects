@@ -93,7 +93,7 @@
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
-			(pdf_single_document yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
@@ -106,11 +106,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "image/")
+			(outputdirectory "breadboard_power_supply-gerbers/")
 		)
 	)
 	(net 0 "")
@@ -5888,18 +5888,18 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.1")
-		(uuid "16a29d51-00a5-4f53-86cc-b0cc3cf839cc")
+		(uuid "c0dffec8-c4a3-4ff3-b91b-3e54fc63f8f9")
 		(pts
-			(xy 152.654 114.046) (xy 118.117596 114.17)
+			(xy 118.11 62.484) (xy 152.654 62.484)
 		)
-		(height 7.874)
+		(height -2.54)
 		(orientation 0)
 		(format
 			(prefix "")
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 1)
 			(suppress_zeroes yes)
 		)
 		(style
@@ -5911,13 +5911,13 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1359.7009 mils"
-			(at 135.385798 120.77 0)
+		(gr_text "34.5 mm"
+			(at 135.382 58.994 0)
 			(layer "User.1")
-			(uuid "16a29d51-00a5-4f53-86cc-b0cc3cf839cc")
+			(uuid "c0dffec8-c4a3-4ff3-b91b-3e54fc63f8f9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)
@@ -5926,18 +5926,18 @@
 	(dimension
 		(type orthogonal)
 		(layer "User.1")
-		(uuid "7d250c06-8ead-4dbf-a94f-e6101915a0dc")
+		(uuid "f656ca12-6be8-44ce-b068-75cb12d47b6f")
 		(pts
-			(xy 151.638 115.062) (xy 151.638 61.468)
+			(xy 119.126 61.468) (xy 119.126 115.062)
 		)
-		(height 8.382)
+		(height -2.286)
 		(orientation 1)
 		(format
 			(prefix "")
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 1)
 			(suppress_zeroes yes)
 		)
 		(style
@@ -5949,13 +5949,13 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "2110 mils"
-			(at 158.87 88.265 90)
+		(gr_text "53.6 mm"
+			(at 115.89 88.265 90)
 			(layer "User.1")
-			(uuid "7d250c06-8ead-4dbf-a94f-e6101915a0dc")
+			(uuid "f656ca12-6be8-44ce-b068-75cb12d47b6f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 1)
 					(thickness 0.15)
 				)
 			)

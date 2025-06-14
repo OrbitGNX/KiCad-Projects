@@ -22,7 +22,7 @@
           "keep_text_aligned": true,
           "suppress_zeroes": true,
           "text_position": 0,
-          "units_format": 1
+          "units_format": 0
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
@@ -455,7 +455,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -475,56 +475,45 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Breadboard Power Supply.kicad_pro",
+    "filename": "Tiny Solar Supply.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.254,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.381,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.2794,
-        "diff_pair_width": 0.1778,
-        "microvia_diameter": 0.7112,
-        "microvia_drill": 0.3556,
-        "name": "power_input",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4064,
-        "via_diameter": 0.6254,
-        "via_drill": 0.3254
-      },
-      {
-        "clearance": 0.1524,
-        "diff_pair_gap": 0.2794,
-        "diff_pair_width": 0.1778,
-        "microvia_diameter": 0.7112,
-        "microvia_drill": 0.3556,
-        "name": "power_output",
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_in_out",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4064,
-        "via_diameter": 0.6254,
-        "via_drill": 0.3254
+        "track_width": 0.35,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -534,32 +523,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "power_input",
-        "pattern": "/PWR_input"
+        "netclass": "Power_in_out",
+        "pattern": "/SOLAR_P"
       },
       {
-        "netclass": "power_input",
-        "pattern": "/12V"
-      },
-      {
-        "netclass": "power_output",
-        "pattern": "/5V"
-      },
-      {
-        "netclass": "power_output",
-        "pattern": "/3.3V"
-      },
-      {
-        "netclass": "power_output",
-        "pattern": "/PWR_output"
-      },
-      {
-        "netclass": "power_output",
-        "pattern": "/PWR_OUT_TOP"
-      },
-      {
-        "netclass": "power_output",
-        "pattern": "/PWR_OUT_BOT"
+        "netclass": "Power_in_out",
+        "pattern": "/OUT_P"
       }
     ]
   },
@@ -568,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "breadboard_power_supply-gerbers/",
+      "plot": "tiny_solar_supply-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -641,12 +610,102 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Short Description",
+          "name": "Short Description",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -656,7 +715,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Short Description",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -692,7 +757,7 @@
   },
   "sheets": [
     [
-      "cc8a5200-4c05-411d-9f79-ae3e738fef93",
+      "fbd32477-0457-46fb-933e-1c60b63f7139",
       "Root"
     ]
   ],
