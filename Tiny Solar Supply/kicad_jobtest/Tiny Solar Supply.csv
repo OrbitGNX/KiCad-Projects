@@ -1,0 +1,17 @@
+QtyValueDescriptionFootprint
+14.7uFUnpolarized capacitorCapacitor_SMD:C_0805_2012Metric
+122 uFUnpolarized capacitorCapacitor_SMD:C_1206_3216Metric
+110pFUnpolarized capacitorCapacitor_SMD:C_0805_2012Metric
+1SS14SS14:DIOM4325X250N
+1SS14SS14:DIOM4325X250N
+1Conn_01x02_PinGeneric connector, single row, 01x02, script generatedConnector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal
+1Conn_01x02_PinGeneric connector, single row, 01x02, script generatedConnector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal
+1Conn_01x02_PinGeneric connector, single row, 01x02, script generatedButton_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm
+1Conn_01x02_PinGeneric connector, single row, 01x02, script generatedConnector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal
+110uHul_ASPI-0630LR-100M-T15:IND_ASPI-0630LR_ABR
+12N70020.115A Id, 60V Vds, N-Channel MOSFET, SOT-23Package_TO_SOT_SMD:SOT-23
+11 MResistorResistor_SMD:R_0805_2012Metric
+1604 KResistorResistor_SMD:R_0805_2012Metric
+110KResistorResistor_SMD:R_0805_2012Metric
+11MResistorResistor_SMD:R_0805_2012Metric
+1AP3015AKTR-G1ul_AP3015AKTR-G1:SOT23-5_1P55X2P9_DIO
